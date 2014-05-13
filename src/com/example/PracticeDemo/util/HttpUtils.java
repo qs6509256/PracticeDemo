@@ -17,15 +17,15 @@ import java.io.IOException;
 public class HttpUtils {
 
     /**
-     * @param path
+     * @param url
      * @param encoding
      * @return
      */
-    public static String post(String path, String encoding) {
+    public static String post(String url, String encoding) {
         String result = "";
         HttpClient httpClient = new DefaultHttpClient();
         try {
-            HttpPost httpPost = new HttpPost(path);
+            HttpPost httpPost = new HttpPost(url);
             HttpResponse response = httpClient.execute(httpPost);
             if (response.getStatusLine().getStatusCode() == 200) {
                 result = EntityUtils.toString(response.getEntity(), encoding);
