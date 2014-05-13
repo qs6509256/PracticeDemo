@@ -6,6 +6,8 @@ out/
 *.ipr
 *.iws
 gen/
+
+
 local.properties
 
 # Java build files
