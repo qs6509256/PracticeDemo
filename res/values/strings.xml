@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AllInOne</string>
+    <!--main-->
+    <string name="btnProgressBar">ProgressBar</string>
+    <string name="btnSpinner">Spinner</string>
+    <!--ProgressBar-->
+    <string name="progressbar_btn_start">开始</string>
+    <string name="progressbar_btn_end">停止</string>
+    <!--Spinner-->
+    <string name="spinner_city">所属城市</string>
+    <string name="spinner_planets">所属星球</string>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <!--SQLite-->
+    <string name="createDatabaseButton">createDatabase</string>
+    <string name="updateDatabaseButton">updateDatabase</string>
+    <string name="insertButton">insert</string>
+    <string name="updateButton">update</string>
+    <string name="selectButton">select</string>
+    <string name="deleteButton">delete</string>
+    <string name="btnDatabase">Database</string>
+    <string name="btnScrollView">ScrollView</string>
+
+</resources>

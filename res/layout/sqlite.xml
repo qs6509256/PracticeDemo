@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <Button
+            android:id="@+id/createDatabase"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/createDatabaseButton"
+            />
+
+    <Button
+            android:id="@+id/updateDatabase"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/updateDatabaseButton"
+            />
+
+    <Button
+            android:id="@+id/insert"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/insertButton"
+            />
+
+    <Button
+            android:id="@+id/update"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/updateButton"
+            />
+
+    <Button
+            android:id="@+id/select"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/selectButton"
+            />
+
+    <Button
+            android:id="@+id/delete"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deleteButton"
+            />
+</LinearLayout>

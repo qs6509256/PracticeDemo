@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:weightSum="1">
+
+    <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="110dp"
+            android:layout_height="109dp"
+            android:id="@+id/progressBar" android:layout_gravity="center_horizontal"/>
+    <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:max="100"
+            android:id="@+id/progressBar2"
+            android:layout_gravity="center_horizontal"
+            android:indeterminate="false"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            >
+        <Button
+                android:id="@+id/btnStart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/progressbar_btn_start"
+                android:onClick="btnStartOnclick"
+                />
+        <Button
+                android:id="@+id/btnEnd"
+                android:layout_marginLeft="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/progressbar_btn_end"
+                android:onClick="btnEndOnclick"
+                />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+        >
+    <!--UI-->
+    <Button
+            style="@style/main_btn"
+            android:text="@string/btnProgressBar"
+            android:onClick="btnProgressOnclick"
+            />
+    <Button
+            style="@style/main_btn"
+            android:text="@string/btnSpinner"
+            android:onClick="btnSpinnerOnclick"
+            />
+    <Button
+            style="@style/main_btn"
+            android:text="@string/btnDatabase"
+            android:onClick="btnDatabaseOnclick"
+            />
+ <Button
+            style="@style/main_btn"
+            android:text="@string/btnScrollView"
+            android:onClick="btnScrollViewOnclick"
+            />
+</LinearLayout>
+
