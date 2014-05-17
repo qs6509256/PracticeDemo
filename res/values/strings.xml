@@ -4,6 +4,9 @@
     <!--main-->
     <string name="btnProgressBar">ProgressBar</string>
     <string name="btnSpinner">Spinner</string>
+    <string name="btnDatabase">Database</string>
+    <string name="btnScrollView">ScrollView</string>
+    <string name="btnCamera">Camera</string>
     <!--ProgressBar-->
     <string name="progressbar_btn_start">开始</string>
     <string name="progressbar_btn_end">停止</string>
@@ -28,7 +31,10 @@
     <string name="updateButton">update</string>
     <string name="selectButton">select</string>
     <string name="deleteButton">delete</string>
-    <string name="btnDatabase">Database</string>
-    <string name="btnScrollView">ScrollView</string>
+
+    <!--Camera-->
+    <string name="btnCaptureImage">Capturing Image</string>
+    <string name="btnCaptureVideo">Capturing Video</string>
+
 
 </resources>

@@ -20,10 +20,15 @@
             android:text="@string/btnDatabase"
             android:onClick="btnDatabaseOnclick"
             />
- <Button
+    <Button
             style="@style/main_btn"
             android:text="@string/btnScrollView"
             android:onClick="btnScrollViewOnclick"
+            />
+    <Button
+            style="@style/main_btn"
+            android:text="@string/btnCamera"
+            android:onClick="btnCameraOnclick"
             />
 </LinearLayout>
 

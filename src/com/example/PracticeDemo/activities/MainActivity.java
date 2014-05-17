@@ -36,4 +36,9 @@ public class MainActivity extends Activity {
         startActivity(intent);
     }
 
+    public void btnCameraOnclick(View v) {
+        Intent intent = new Intent(MainActivity.this, CameraActivity.class);
+        startActivity(intent);
+    }
+
 }
